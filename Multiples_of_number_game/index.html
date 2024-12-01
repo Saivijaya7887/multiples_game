@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Multiples of 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Click Multiples of 5</h1>
+        <h2 id="score">Score: 0</h2>
+        <div id="game-board" class="game-board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Multiples of Your Selected Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Click Multiples of Your Selected Number</h1>
+        
+        <!-- Input for selecting the number -->
+        <label for="number-select">Select a number: </label>
+        <input type="number" id="number-select" min="1" max="50" placeholder="Enter a number" />
+        <button onclick="startGame()">Start Game</button>
+        
+        <h2 id="score">Score: 0</h2>
+        <div id="game-board" class="game-board"></div>
+        
+        <!-- Game Over Message -->
+        <div id="game-over-message" class="game-over"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
